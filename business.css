@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+
+.hakao{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.header-container{
+    padding: 1.2rem 5rem;
+    position: sticky;
+    top: 0;
+    transition: all 5s;
+}
+
+.killar-img img {
+    cursor: pointer;
+}
+
+
+.navber{
+    display: flex;
+    gap: 3rem;
+}
+
+.navber-text{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.jamela a{
+    text-decoration: none;
+    color: #292727;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+.jamela{
+    list-style: none;
+}
+
+.navber-text ul li a:hover{
+    color: #e7ffff;
+    transition: all 0.2s;
+}
+
+
+.unoder-list{
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.home{
+    position: relative;
+}
+
+.home:hover .dropdown-item{
+    display: block;
+    transition: all 5s;
+}
+
+.dropdown-item{
+    position: absolute;
+    width: 850px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: none;
+    left: 0;
+    top: 22px;
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.about-me{
+    display: flex;
+    gap: 1rem;
+}
+.fast-drop{
+    display: flex;
+    width: 270px;
+    height: 75px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    /* background-color:#E5F4F0; */
+}
+
+.fast-drop:hover{
+    box-shadow: 4px 10px 20px #413f3fbb;
+    transition: all 0.3s;
+}
+
+.cup-img{
+    width: 50px;
+    height: 50px;
+    background-color:#E5F4F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fast-drop-text p {
+    color: #000;
+}
+
+.fast-drop-text .second-para{
+    font-size:12px ;
+    color: #7a7a7a;
+    margin-top: 2px;
+}
+
+
+.pages{
+    position: relative;
+}
+.pages-drop{
+    position: absolute;
+    width: 250px;
+    height: 460px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem 1rem;
+}
+
+
+
+.pages-dropa a:hover{
+    margin-left:15px;
+    transition:50s;
+
+}
+.pages-drop li{
+    list-style: none;
+} 
+
+.pages-dropa{
+    margin-top: 0.6rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    /* padding: 5rem; */
+}
+.pages:hover .pages-drop{
+    display: block;
+}
+
+
+.haderh1{
+    font-size: 17px;
+}
+.elements-dropdown li:hover{
+    color: #000;
+}
+.elements-dropdown {
+    display: none;
+    position: absolute;
+    background-color:#fff;
+    padding: 2rem;
+    width: 700px;
+    height: 300px;
+}
+
+.display-flex{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.elements-dropdown li {
+    list-style: none;
+}
+.aboutto {
+    position: relative;
+}
+.elements{
+    /* margin-top: 1rem; */
+    padding: 0.4rem;
+}
+.aboutto:hover .elements-dropdown{
+    display: block;
+}
+
+.la {
+    margin-left: 6rem;
+}
+
+.shop-drop li {
+    list-style: none;
+    padding-left: 1rem ;
+}
+
+.shop{
+    position: relative;
+}
+.shop-drop{
+    display: none;
+    position: absolute;
+    width: 200px;
+    /* padding: 2rem; */
+}
+
+.shop:hover .shop-drop{
+    display: block;
+}
+
+
+
+.right-navbar{
+    display: flex;
+    margin-left: auto;
+}
+.sign-in{
+    width: 30%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    gap:0.5rem;
+    cursor: pointer;
+}
+
+
+.sign-in p {
+    color: #292727;
+    font-size: 13px;
+    font-weight: 700;
+}
+.sign-in-img{
+    display: flex;
+    align-items: center;
+}
+
+.sign-in-text p:hover{
+    color: #e7ffff;
+}
+
+.register-now {
+    width: 170px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #0264D6;
+    border-radius: 5px;
+}
+
+
+.register-now button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.shopping{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
