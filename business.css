@@ -5,20 +5,17 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif   ;
-}
-
-.hakao{
-    width: 100vw;
-    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 1rem 0; */
 }
 
 
 .header-container{
-    padding: 1.2rem 5rem;
+    padding: 0rem 5rem;
     position: sticky;
     top: 0;
-    transition: all 5s;
+    height: 90px;
+    /* transition: all 5s; */
 }
 
 .killar-img img {
@@ -28,7 +25,10 @@ body{
 
 .navber{
     display: flex;
+    align-items: center;
     gap: 3rem;
+    background-color: #fff;
+    height: 100%;
 }
 
 .navber-text{
@@ -74,13 +74,14 @@ body{
     position: absolute;
     width: 850px;
     height: 500px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgb(255, 255, 255);
     display: none;
-    left: 0;
+    left: -200px;
     top: 22px;
     border-radius: 10px;
     padding: 1rem;
     gap: 1rem;
+    z-index: 5;
 }
 
 .about-me{
@@ -130,7 +131,7 @@ body{
     position: absolute;
     width: 250px;
     height: 460px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
     display: none;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.5rem 1rem;
@@ -171,6 +172,7 @@ body{
     padding: 2rem;
     width: 700px;
     height: 300px;
+    /* z-index: 5; */
 }
 
 .display-flex{
@@ -219,6 +221,7 @@ body{
 .right-navbar{
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 .sign-in{
     width: 30%;
@@ -261,6 +264,7 @@ body{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    color: #fff;
 }
 
 .shopping{
@@ -268,4 +272,136 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: 1rem;
+}
+
+.hakao{
+    width: 100vw;
+    height: 460px;
+    padding: 2rem 5rem;
+    z-index: -5;
+    /* margin-left: auto; */
+    /* display: flex; */
+    /* background-color: red; */
+}
+
+
+.parend-group{
+    display: flex;
+    /* gap: 2rem; */
+    justify-content: center;
+}
+
+.left-child{
+    width: 50%;
+}
+.welcometo-killar{
+    width: 150px;
+    height: 40px;
+    background-color:#E5EFFB;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcometo-killar span {
+    color: #0264D6;
+}
+
+.grow{
+    margin-top: 1rem;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.killar-com{
+    color:#0264D6;
+}
+
+.para1 p{
+    color: #a19696;
+    margin-top: 2rem;
+    /* gap: rem; */
+    line-height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.demo{
+    width: 220px;
+    height: 60px;
+    background-color:#0264D6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.demo button {
+    background-color: transparent;
+    border: none;
+    color:#fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rad{
+    margin-top: 7px;
+}
+
+.button-groups{
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.works{
+    background-color: #02121fa8;
+}
+
+.right-child {
+    width: 50%;
+    /* margin-left: auto;   */
+}
+.right-child-men-div{
+    background-color: #E5F3FF;
+    width: 455px;
+    height: 499px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    /* display: flex; */
+    /* position: relative; */
+}
+.right-child-groups{
+    /* margin-left:; */
+    display: flex;
+    justify-content: end;
+}
+.men{
+    width: 499px;
+    position: relative;
+    height: 100%;
+}
+.men img {
+    height: 100%;
+}
+.insta{
+    position: absolute;
+    top: 120px;
+}
+
+.google{
+    position: absolute;
+    margin-top: -60px;
+}
+
+.p{
+    position: absolute;
+    margin-left:25.5rem;
+    margin-top: -50px;
+}
+
+.site-img{
+    width: 100%;
+    display: flex;
 }
